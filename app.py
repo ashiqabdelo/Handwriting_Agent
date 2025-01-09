@@ -12,7 +12,8 @@ from tempfile import NamedTemporaryFile
 from constants1 import SYSTEM_PROMPT, INSTRUCTIONS
 
 os.environ['TAVILY_API_KEY'] = st.secrets['TAVILY_KEY']
-os.environ['GOOGLE_API_KEY'] = st.secrets['GEMINI KEY']
+os.environ['GOOGLE_API_KEY'] = st.secrets['GEMINI_KEY']
+
 
 MAX_IMAGE_WIDTH = 300
 
